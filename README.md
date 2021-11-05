@@ -36,11 +36,11 @@
 
 ## Overview
 
-![screenshot](https://www.dropbox.com/home/Photos?preview=Screenshot+(2)_LI.jpg)
+![screenshot](img/Screenshot+(2)_LI.jpg)
 
 
 - Where can I see your demo?
-here in this link :
+here in this link : https://abkardev.github.io/404-not-found/
 - What was your experience?
 it was great experience to build project with this amazing site and i am feeling satisfied to done this project
 - What have you learned/improved?
