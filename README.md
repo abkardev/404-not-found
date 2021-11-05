@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot]("https://www.dropbox.com/home/Photos?preview=Screenshot+(2)_LI.jpg")
+![screenshot](https://www.dropbox.com/home/Photos?preview=Screenshot+(2)_LI.jpg)
 
 
 - Where can I see your demo?
