@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+/* 404 error text */
+.error-text{
+font-family: Inconsolata;
+font-size: 24px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-align: left;
+padding: 50px;
+
+}
+
+
+/* container for scarecrow and aside text */
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+
+/* scarecrow  */
+.scarecrow-bird-image{
+    width: 80%;
+    height: 100%;
+}
+.scarecrow-bird-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+/* aside text include title and paragraph */
+.text{
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+}
+.text .title{
+font-family: Space Mono;
+font-size: 56px;
+font-weight: 700;
+line-height: 95px;
+letter-spacing: -0.035em;
+text-align: left;
+
+
+}
+
+.text .paragraph{
+border-radius: 0;
+font-family: Space Mono;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.035em;
+text-align: left;
+
+}
+
+/* set a button */
+button{
+ margin-top: 80px;   
+height: 68px;
+width: 216px;
+left: 740px;
+top: 663px;
+border-radius: 0;
+background: #333333;
+color: #fff;
+
+}
+
+button p{
+font-family: Space Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: -0.035em;
+}
+
+footer p{  
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+height: 17px;
+width: 287px;
+left: 577px;
+top: 1039px;
+border-radius:0;
+color: #BDBDBD;
+margin: 0 auto;
+
+}
+
+/* use media queries to make web page responsive */
+@media screen and (max-width:650px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding:50px 0;
+    }
+    .scarecrow-bird-image{
+        width: 100%;
+        height: 100%;
+    }
+    .text .title{
+        font-size: 48px;    
+    }
+    .text .paragraph{
+        font-size: 18px;
+    }
+
+    footer p{
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+
+}
